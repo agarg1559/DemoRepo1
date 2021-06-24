@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Link is clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="SmokeTest" duration-ms="10222" started-at="2021-06-20T17:00:36 IST" finished-at="2021-06-20T17:00:46 IST">
+    <groups>
+    </groups>
+    <test name="ABC" duration-ms="10222" started-at="2021-06-20T17:00:36 IST" finished-at="2021-06-20T17:00:46 IST">
+      <class name="TestCases.LoginWithExtentReport">
+        <test-method status="PASS" signature="IntialSetUp()[pri:0, instance:TestCases.LoginWithExtentReport@1d29cf23]" name="IntialSetUp" is-config="true" duration-ms="7060" started-at="2021-06-20T17:00:36 IST" finished-at="2021-06-20T17:00:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntialSetUp -->
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:TestCases.LoginWithExtentReport@1d29cf23]" name="Homepage" duration-ms="1102" started-at="2021-06-20T17:00:43 IST" finished-at="2021-06-20T17:00:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Link is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method status="PASS" signature="LoginPage()[pri:1, instance:TestCases.LoginWithExtentReport@1d29cf23]" name="LoginPage" duration-ms="1002" started-at="2021-06-20T17:00:44 IST" finished-at="2021-06-20T17:00:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method status="PASS" signature="VerificationPoint()[pri:2, instance:TestCases.LoginWithExtentReport@1d29cf23]" name="VerificationPoint" duration-ms="123" started-at="2021-06-20T17:00:45 IST" finished-at="2021-06-20T17:00:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerificationPoint -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.LoginWithExtentReport@1d29cf23]" name="teardown" is-config="true" duration-ms="851" started-at="2021-06-20T17:00:45 IST" finished-at="2021-06-20T17:00:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginWithExtentReport -->
+    </test> <!-- ABC -->
+  </suite> <!-- SmokeTest -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTest]">
+  <parameter name="OS" value="Windows"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="ABC(failed)">
+    <classes>
+      <class name="TestCases.LoginWithExtentReport">
+        <methods>
+          <include name="teardown"/>
+          <include name="LoginPage"/>
+          <include name="IntialSetUp"/>
+          <include name="VerificationPoint"/>
+          <include name="Homepage"/>
+        </methods>
+      </class> <!-- TestCases.LoginWithExtentReport -->
+    </classes>
+  </test> <!-- ABC(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->
